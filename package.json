@@ -1,0 +1,32 @@
+{
+  "name": "imss-backend",
+  "version": "2.0.0",
+  "description": "Backend para el departamento de nutricion y dietetica del instituto mexicano del seguro social",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MsCarlitos/IMSS-BACKEND-2.0.0.git"
+  },
+  "author": "Carlos Alberto Mendoza Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MsCarlitos/IMSS-BACKEND-2.0.0/issues"
+  },
+  "homepage": "https://github.com/MsCarlitos/IMSS-BACKEND-2.0.0#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.5",
+    "uuid": "^8.3.2"
+  }
+}
